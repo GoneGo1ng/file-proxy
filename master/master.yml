@@ -1,0 +1,15 @@
+# 服务配置
+server:
+  ## TCP 服务地址 <addr>:<port>
+  tcp_address: "0.0.0.0:9630"
+  ## HTTP 地址 <addr>:<port>
+  http_address: "0.0.0.0:9631"
+  ## Override default hostname, if empty use os.Hostname()
+  hostname: ""
+
+## 日志配置
+log:
+  ## 日志级别
+  level: debug
+  ## 输出路径
+  output_path: stdout

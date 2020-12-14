@@ -1,0 +1,28 @@
+# 服务配置
+server:
+  # Master TCP 服务地址 <addr>:<port>
+  master_tcp_address: "0.0.0.0:9630"
+  # HTTP 地址 <addr>:<port>
+  http_address: "0.0.0.0:9641"
+  # Override default hostname, if empty use os.Hostname()
+  hostname: ""
+
+# 提供下载的文件路径
+file_paths:
+- "E:\\test\\*.txt"
+
+# 动态获取下载的文件路径配置
+reload_config:
+  # 是否启用
+  enabled: true
+  # 文件路径
+  path: "input.yml"
+  # 刷新周期
+  period: 10s
+
+## 日志配置
+log:
+  ## 日志级别
+  level: debug
+  ## 输出路径
+  output_path: stdout
