@@ -9,6 +9,7 @@ File Proxy 分为 Master 和 Worker 两个部分。
 
 # Architecture overview
 
+```
 ┌───────────┐       ┌───────────┐
 │           │       │           │
 │   Files   │──────>│  Worker1  │───┐
@@ -26,6 +27,7 @@ File Proxy 分为 Master 和 Worker 两个部分。
 │   Files   │──────>│  Worker3  │───┘
 │           │       │           │
 └───────────┘       └───────────┘
+```
 
 # Usage
 
