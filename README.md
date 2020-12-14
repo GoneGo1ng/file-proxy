@@ -33,11 +33,16 @@ File Proxy 分为 Master 和 Worker 两个部分。
 
 ## Master
 
+```
 master --config master.yml
+```
+
 
 ## Worker
 
+```
 worker --config worker.yml
+```
 
 # Master API
 
