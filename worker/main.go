@@ -1,8 +1,8 @@
 package main
 
 import (
-	"file-proxy/worker/config"
-	"file-proxy/worker/echo"
+	"github.com/GoneGo1ng/file-proxy/worker/config"
+	"github.com/GoneGo1ng/file-proxy/worker/echo"
 	"flag"
 	"fmt"
 	"github.com/gin-gonic/gin"

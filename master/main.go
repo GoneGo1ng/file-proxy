@@ -1,8 +1,8 @@
 package main
 
 import (
-	"file-proxy/master/config"
-	"file-proxy/master/echo"
+	"github.com/GoneGo1ng/file-proxy/master/config"
+	"github.com/GoneGo1ng/file-proxy/master/echo"
 	"flag"
 	"fmt"
 	"github.com/abrander/ginproxy"

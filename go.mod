@@ -1,4 +1,4 @@
-module file-proxy
+module github.com/GoneGo1ng/file-proxy
 
 go 1.14
 
